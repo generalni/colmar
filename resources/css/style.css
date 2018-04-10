@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700');
+
+html {
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* HEADER SECTION */
+
+header .container {
+	height: 4rem;
+	padding: 0 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo {
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	transform: scale(1.3, 1.3);
+}
+
+header span {
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 1.2rem; /*height of 2rem just doesn't seem right*/
+}
+
+header span.bold {
+	margin-left: 0.4rem;
+	font-weight: 700;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+}
+
+header li {
+	margin-right: 1rem;
+}
+
+header li:last-child {
+	margin-right: 0;
+}
+
+/* FIRST SECTION */
+
+.first .container {
+	display: flex;
+	align-items: center;
+	background-color: #d8d8d8;
+}
+
+.first .container img {
+	box-sizing: border-box;
+	width: 60%;
+	padding: 2rem 1.5rem;
+}
+
+.first .banner {
+	display: flex;
+	flex-direction: column;
+	padding: 0 3rem;
+	color: #4b4b4b;
+}
+
+.first h1 {
+	font-family: "TruenoBold";
+	font-size: 2.15rem;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.first h2 {
+	font-size: 1.2rem;
+	line-height: 1.2;
+	font-weight: 700;
+	margin-top: 1.5rem;
+}
+
+.first .banner-button {
+	width: 90%;
+	margin-top: 2rem;
+	text-align: center;
+	background-color: #4b4b4b;;
+	color: white;
+	border: 1px solid #4b4b4b;;
+	padding: 0.75rem 0; /* 0.5rem didn't seem right */
+	transition: background-color .3s linear;
+}
+
+.first .banner-button:hover {
+	background-color: white;
+	color: #4b4b4b;
+	border: 1px solid #4b4b4b;;
+}
+
+/* SECOND SECTION */
+
+#second .container {
+	display: flex;
+	align-content: center;
+	background-color: #f3f5f5;
+}
+
+#second .container .image-container {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+	padding: 2rem 1.5rem;
+}
+
+#second .image-container img {
+	width: 100%;
+}
+
+#second .image-container h3 {
+	font-family: "TruenoBold";
+	font-size: 1.8rem;
+	line-height: 1.2;
+	font-weight: 700;
+	margin-top: 2rem;
+	color: #4b4b4b;
+}
+
+#second .image-container span {
+	font-family: "Merriweather Sans";
+	font-size: 0.85rem;
+	line-height: 1.4;
+	margin-top: 1.5rem;
+	color: #4b4b4b;
+}
+
+#second .image-container span.small {
+	font-size: 0.7rem;
+	margin-top: 2.15rem;
+}
+
+#second .articles {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	border-left: 1px solid #e2e4e4;
+	padding: 2rem 0;
+}
+
+#second .single-article {
+	padding: 1rem 1rem;
+	display: flex;
+	align-items: center;
+}
+
+#second .single-article:first-child {
+	padding: 0 1rem 1rem 1rem;
+	border-bottom: 3px solid #e2e4e4;
+}
+
+#second .single-article:last-child {
+	background-color: #d8d8d8;
+}
+
+#second .single-article img {
+	width: 36.8%;
+}
+
+#second .text-content {
+	margin-left: 1rem;
+}
+
+#second .single-article h5 {
+	font-family: "TruenoRegular";
+	font-size: 1.2rem;
+	line-height: 1.2;
+	font-weight: bold;
+	color: #4b4b4b;
+}
+
+#second .text-content span {
+	display: block;
+	font-family: "Merriweather Sans";
+	color: #4b4b4b;
+	font-size: 0.8rem;
+	margin: 0.5rem 0;
+	line-height: 1.4;
+}
+
+#second .text-content a {
+	display: block;
+	color: #4a90e2;
+	font-size: 0.95rem;
+}
+
+/* THIRD SECTION */
+
+#third .container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #eaebec;
+}
+
+#third .container h3 {
+	font-family: "TruenoBold";
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #4b4b4b;
+	padding-top: 2rem;
+}
+
+#third .courses {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 1rem 4rem 2rem 4rem;
+}
+
+#third .single-course {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 31.5%;
+	margin: 1rem 0.5rem 0 0.5rem;
+	padding-bottom: 1.5rem;
+}
+
+#third .single-course img {
+	max-width: 100%;
+}
+
+#third .single-course h5 {
+	font-family: "TruenoRegular";
+	font-size: 1.2rem;
+	line-height: 1.2;
+	font-weight: bold;
+	color: #4b4b4b;
+	padding: 1rem 1rem 0.5rem 1rem;
+}
+
+#third .single-course span {
+	display: block;
+	padding: 0.5rem 1rem 0 1rem;
+	font-family: "Merriweather Sans";
+	color: #4b4b4b;
+	font-size: 0.9rem;
+	line-height: 1.4;
+}
+
+/* FOURTH SECTION */
+
+#fourth .container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f3f5f5;
+}
+
+#fourth .container h3 {
+	font-family: "TruenoBold";
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #4b4b4b;
+	padding-top: 2rem;
+}
+
+#fourth .wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+#fourth .container .video-container {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+	padding: 2rem 1.5rem;
+}
+
+#fourth .video-container video {
+	width: 100%;
+}
+
+#fourth .video-container span {
+	font-family: "Merriweather Sans";
+	font-size: 0.85rem;
+	line-height: 1.4;
+	margin-top: 1.5rem;
+	color: #4b4b4b;
+}
+
+#fourth .articles {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 0;
+}
+
+#fourth .single-article {
+	padding: 1rem 1rem;
+	display: flex;
+	align-items: center;
+}
+
+#fourth .single-article:first-child {
+	padding: 1rem;
+	background-color: #d8d8d8;
+}
+
+#fourth .single-article img {
+	width: 36.8%;
+}
+
+#fourth .text-content {
+	margin-left: 1rem;
+}
+
+#fourth .single-article h5 {
+	font-family: "TruenoRegular";
+	font-size: 1.2rem;
+	line-height: 1.2;
+	font-weight: bold;
+	color: #4b4b4b;
+}
+
+#fourth .text-content span {
+	display: block;
+	font-family: "Merriweather Sans";
+	color: #4b4b4b;
+	font-size: 0.8rem;
+	margin: 0.5rem 0;
+	line-height: 1.4;
+}
+
+/* FOOTER SECTION */
+
+footer .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f3f5f5;
+	padding: 1rem 1.5rem;
+	border-top: 1px solid lightgrey;
+	font-size: 0.85rem;
+}
+
+footer div a:last-child {
+	margin-left: 1rem;
+}
