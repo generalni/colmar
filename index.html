@@ -2,34 +2,37 @@
 <html>
 	<head>
 		<title>Colmar Academy</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- PROVERI POSLE -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
 		<link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
 	</head>
 	<body>
 
 		<!-- HEADER -->
 
-		<header>
-			<nav class="container">
-				<div class="logo">
-					<img src="./resources/img/ic-logo.svg" alt="colmar academy logo">
-					<span class="bold">COLMAR</span>
-					<span>ACADEMY</span>
-				</div>
-				<ul>
-					<li><a href="#">On campus</a></li>
-					<li><a href="#">Online</a></li>
-					<li><a href="#">For companies</a></li>
-					<li><a href="#">Sign in</a></li>
-				</ul>
+		<header class="container">
+			<div class="logo">
+				<img src="./resources/img/ic-logo.svg" alt="colmar academy logo">
+				<span class="bold">COLMAR</span>
+				<span>ACADEMY</span>
+			</div>
+			<nav class="desktop">
+				<a href="#">On campus</a>
+				<a href="#">Online</a>
+				<a href="#">For companies</a>
+				<a href="#">Sign in</a>
+			</nav>
+			<nav class="mobile">
+				<a href="#"><img src="./resources/img/ic-logo.svg" alt="colmar academy logo"></a>
+				<a href="#"><img src="./resources/img/ic-on-campus.svg" alt="campus icon"></a>
+				<a href="#"><img src="./resources/img/ic-online.svg" alt="online icon"></a>
+				<a href="#"><img src="./resources/img/ic-login.svg" alt="login icon"></a>
 			</nav>
 		</header>
 
-		<!-- FIRST SECTION -->
+		<!-- ENROLL SECTION -->
 
-		<div class="first">
+		<div id="enroll">
 			<div class="container">
 				<img src="./resources/img/banner.jpg" alt="girl reading a book">
 				<div class="banner">
@@ -42,9 +45,9 @@
 			</div>
 		</div>
 
-		<!-- SECOND SECTION -->
+		<!-- GENERAL SECTION -->
 
-		<div id="second">
+		<div id="general">
 			<div class="container">
 				<div class="image-container">
 					<img src="./resources/img/information-main.jpg" alt="man reading a book">
@@ -81,12 +84,12 @@
 			</div>
 		</div>
 
-		<!-- THIRD SECTION -->
+		<!-- COURSES SECTION -->
 
-		<div id="third">
+		<div id="courses">
 			<div class="container">
 				<h3>Start learning</h3>
-				<div class="courses">
+				<div class="wrapper">
 					<div class="single-course">
 						<img src="./resources/img/course-software.jpg" alt="apple computer">
 						<h5>Software engineering</h5>
@@ -127,9 +130,9 @@
 			</div>
 		</div>
 
-		<!-- FOURTH SECTION -->
+		<!-- THESIS SECTION -->
 
-		<div id="fourth">
+		<div id="thesis">
 			<div class="container">
 				<h3>Thesis exhibit</h3>
 				<div class="wrapper">
@@ -138,7 +141,7 @@
 						  <source src="./resources/videos/thesis.mp4" type="video/mp4">
 						  Your browser does not support the video tag.
 						</video>
-						<h3>Reimagine urban</h3>
+						<h5>Reimagine urban</h5>
 						<span>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</span>
 					</div>
 					<div class="articles">
