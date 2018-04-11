@@ -64,7 +64,7 @@ header nav.mobile {
 	display: none;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 
 	header .logo,
 	header nav.desktop {
@@ -136,7 +136,7 @@ header nav.mobile {
 	color: #2a2a2a;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 	
 	#enroll .container {
 		flex-direction: column;
@@ -252,7 +252,7 @@ header nav.mobile {
 	font-size: 0.85rem;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 
 	#general .container .image-container {
 		display: none;
@@ -344,7 +344,7 @@ header nav.mobile {
 	line-height: 1.4;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 
 	#courses .container {
 		padding: 2rem 1rem 1.5rem 1rem;
@@ -460,7 +460,7 @@ header nav.mobile {
 	line-height: 1.4;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 
 	#thesis .container h3 {
 		padding: 2rem 0 2rem 0;
@@ -511,7 +511,7 @@ footer div a:last-child {
 	margin-left: 1rem;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 
 	footer .container {
 		font-size: 0.75rem;
