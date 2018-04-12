@@ -19,7 +19,7 @@ a {
 
 /* HEADER SECTION */
 
-header {
+header .container {
 	height: 4rem;
 	display: flex;
 	flex-direction: row;
